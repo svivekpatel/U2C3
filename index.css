@@ -1,0 +1,41 @@
+/* Fill CSS here */
+
+body>h1{
+    color: #28609A;
+    text-align: center;
+
+}
+
+body>div>form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    width:250px
+}
+
+body>div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+body>div>form>input,select{
+    margin: 10px 0px;
+    width:90%;
+    padding: 5px;
+}
+
+table>thead>tr>th{
+
+    padding: 8px 12px;
+    background-color: #28609A;
+    color: white;
+}
+
+body>div>form>input:last-child{
+    background-color: #28609A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+    color: white;
+}
